@@ -12,7 +12,7 @@ Nothing fancy. Assumes Ubuntu 20.10, Discord, and Restic.
 
 1. Get a [discord webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
 
-1. Decide where [restic backups](https://restic.readthedocs.io/en/stable/030_preparing_a_new_repo.html#) will go (cloud, disk, etc). I'm using Backblaze because it's trivial to set up & free out to 10 GB.
+1. Decide where [restic backups](https://restic.readthedocs.io/en/stable/030_preparing_a_new_repo.html#) will go (cloud, disk, etc).<br/>I'm using Backblaze because it's trivial to set up & free out to 10 GB.
 
 ## Configure
 
