@@ -1,0 +1,30 @@
+# Steam
+export ADMIN_ID=''
+
+# Scripting
+export ADMIN_TIMEZONE=''
+
+# Discord
+export DISCORD_WEBHOOK=''
+
+# Restic
+export RESTIC_PASSWORD=''
+# Local example. Be sure to create this directory & set permissions.
+# If using some other destination, you may need more bash variables defined here.
+export RESTIC_REPOSITORY="/opt/backups"
+
+# Leave alone; restic self-updates
+export RESTIC_DOWNLOAD_URL='https://github.com/restic/restic/releases/download/v0.12.0/restic_0.12.0_linux_amd64.bz2'
+
+#  ---
+
+# LGSM
+export servername="thebestserver"
+export serverpassword="somepassword"
+export port="2456"
+
+# LGSM alerts
+# https://docs.linuxgsm.com/alerts
+export postalert="on"
+export discordalert="on"
+export discordwebhook="$DISCORD_WEBHOOK"

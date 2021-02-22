@@ -1,0 +1,16 @@
+
+/admin/known-*.json
+/admin/config.sh
+
+/lgsm
+/linuxgsm.sh
+/log
+/serverfiles
+/vhserver
+
+/restic
+/restic.bz2
+
+/.vagrant
+/backup
+/state
